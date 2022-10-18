@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmenti.IgracFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/igracIme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/zelena"
+            />
+
+        <TextView
+            android:id="@+id/igracNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/igracIme"
+            android:layout_marginTop="4dp"
+            android:textSize="13sp"
+            android:textStyle="italic"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clIgrac"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/igracNac">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/igracSlika"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:roundedCornerRadius="4dp"></com.facebook.drawee.view.SimpleDraweeView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/godineIgracTekst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clIgrac"
+            android:text="@string/godine"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/godineIgrac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/godineIgracTekst"
+            style="@style/igracFragment"
+            />
+
+        <TextView
+            android:id="@+id/tituleIgracTekst"
+            style="@style/igracTekst"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/godineIgrac"
+            android:text="@string/titule" />
+
+        <TextView
+            android:id="@+id/tituleIgrac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituleIgracTekst"
+            style="@style/igracFragment" />
+
+        <TextView
+            android:id="@+id/rukaIgracTekst"
+            style="@style/igracTekst"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituleIgrac"
+            android:text="@string/ruka" />
+
+        <TextView
+            android:id="@+id/rukaIgrac"
+            style="@style/igracFragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rukaIgracTekst" />
+
+        <TextView
+            android:id="@+id/meceviIgracTekst"
+            style="@style/igracTekst"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rukaIgrac"
+            android:text="@string/mecevi_rezervirani" />
+
+        <TextView
+            android:id="@+id/meceviIgrac"
+            style="@style/igracFragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/meceviIgracTekst" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

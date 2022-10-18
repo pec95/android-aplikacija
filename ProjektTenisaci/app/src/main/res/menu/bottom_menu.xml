@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tereni"
+        android:title="@string/tereni"
+        android:icon="@drawable/ic_court"
+        />
+
+    <item
+        android:id="@+id/mecevi"
+        android:title="@string/mecevi"
+        android:icon="@drawable/ic_tennis"
+        />
+
+    <item
+        android:id="@+id/jezik"
+        android:title="@string/jezik"
+        android:icon="@drawable/ic_language"
+        />
+</menu>

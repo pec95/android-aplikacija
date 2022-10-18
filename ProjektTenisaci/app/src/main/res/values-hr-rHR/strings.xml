@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tenisaci">Tenisači</string>
+    <string name="tereni">Tereni</string>
+    <string name="jezik">Jezik</string>
+    <string name="mecevi">Mečevi</string>
+    <string name="toast_jezik">Jezik će se promijeniti kada ponovno uđete u aplikaciju</string>
+    <string name="promijenite_jezik">Promijenite jezik</string>
+    <string name="rezervacija">Rezerviraj meč!</string>
+    <string name="unesite_datum">Unesite datum</string>
+    <string name="desna">D</string>
+    <string name="greska_rezervacija">Niste unijeli datum ili ste odabrali istog igrača!</string>
+    <string name="uspjesno_rezervacija">Uspješno dodan meč!</string>
+    <string name="izbrisi_gumb">Izbriši</string>
+    <string name="godine">Starost</string>
+    <string name="titule">Broj titula</string>
+    <string name="ruka">Preferira ruku</string>
+    <string name="mecevi_rezervirani">Popis rezerviranih mečeva</string>
+    <string name="na">na</string>
+    <string name="dijalog">Želite li zaista izbrisati</string>
+    <string name="ne">Ne</string>
+    <string name="da">Da</string>
+</resources>

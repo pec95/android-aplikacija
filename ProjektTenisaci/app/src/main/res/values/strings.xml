@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">Tenis</string>
+    <string name="tenisaci">Tennis players</string>
+    <string name="tereni">Courts</string>
+    <string name="jezik">Language</string>
+    <string name="engleski" translatable="false">ENG</string>
+    <string name="hrvatski" translatable="false">HR</string>
+    <string name="mecevi">Matches</string>
+    <string name="toast_jezik">Language will change when app is restarted</string>
+    <string name="promijenite_jezik">Change language</string>
+    <string name="vs" translatable="false">vs</string>
+    <string name="rezervacija">Reserve match!</string>
+    <string name="unesite_datum">Enter date</string>
+    <string name="desna">R</string>
+    <string name="greska_rezervacija">Date not entered or same player picked!</string>
+    <string name="uspjesno_rezervacija">Match added successfully!</string>
+    <string name="izbrisi_gumb">Delete</string>
+    <string name="godine">Age</string>
+    <string name="titule">Titles No.</string>
+    <string name="ruka">Hand preference</string>
+    <string name="mecevi_rezervirani">List of reserved matches</string>
+    <string name="na">on</string>
+    <string name="dijalog">Do you really want to delete</string>
+    <string name="da">Yes</string>
+    <string name="ne">No</string>
+</resources>

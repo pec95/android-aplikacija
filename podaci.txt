@@ -1,0 +1,25 @@
+android:background="@color/colorPrimary"
+app:itemIconTint="@android:color/white"
+app:itemTextColor="@android:color/white"
+
+
+public void dodajTerene() {
+        tereni.add(new Teren("Barcelona Open", "https://cdn-images.imagevenue.com/88/b6/74/ME13IMNZ_o.png", "Real Club de Tenis Barcelona", "ATP 500"));
+        tereni.add(new Teren("Madrid Open", "https://cdn-images.imagevenue.com/f0/0c/48/ME13IMNU_o.png", "Caja Mágica", "Masters 1000"));
+        tereni.add(new Teren("Monte-Carlo Masters", "https://cdn-images.imagevenue.com/66/2e/2f/ME13IMNV_o.png", "Monte Carlo Country Club", "Masters 1000"));
+        tereni.add(new Teren("Roland Garros", "https://cdn-images.imagevenue.com/cf/26/61/ME13IMNW_o.png", "Stade Roland Garros", "Grand Slam"));
+        tereni.add(new Teren("Internazionali d'Italia", "https://cdn-images.imagevenue.com/aa/ac/8f/ME13IMNX_o.png", "Foro Italico", "Masters 1000"));
+        tereni.add(new Teren("Croatia Open", "https://cdn-images.imagevenue.com/49/84/0b/ME13IMNY_o.png", "ITC Stella Maris", "ATP 250"));
+}
+
+public void dodajIgrace() {
+        String desna = getResources().getString(R.string.desna);
+
+        igraci.add(new Igrac("Rafael Nadal", "ESP", 35, 88, "L", "https://cdn-images.imagevenue.com/f1/6c/e5/ME13INMK_o.png"));
+        igraci.add(new Igrac("Roger Federer", "SUI", 39, 103, desna , "https://cdn-images.imagevenue.com/2f/34/e4/ME13INMP_o.png"));
+        igraci.add(new Igrac("Marin Čilić", "HR", 32, 19, desna , "https://cdn-images.imagevenue.com/b6/0b/9b/ME13INML_o.png"));
+        igraci.add(new Igrac("Fabio Fognini", "ITA", 34, 9, desna , "https://cdn-images.imagevenue.com/57/54/91/ME13INMQ_o.png"));
+        igraci.add(new Igrac("Juan Martín del Potro", "ARG", 32, 22, desna , "https://cdn-images.imagevenue.com/3f/f8/7a/ME13INMM_o.png"));
+        igraci.add(new Igrac("Novak Đoković", "SRB", 34, 84, desna , "https://cdn-images.imagevenue.com/1c/b8/51/ME13INMN_o.png"));
+}
+

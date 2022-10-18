@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E3693A</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+
+    <color name="colorDark">#1E1E1E</color>
+    <color name="loptica">#E1EB3C</color>
+    <color name="zelena">#05482F</color>
+    <color name="danger">#F32013</color>
+
+    <color name="colorText">#000000</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+</resources>
